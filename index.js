@@ -20,7 +20,8 @@ async function run() {
             repo: repo.repo,
             base: target_branch,
             head: source_ref,
-            commit_message: commitMessage
+            commit_message: commitMessage,
+            force: true
         })
 
     } catch (e) {
