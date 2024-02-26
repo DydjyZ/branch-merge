@@ -15,6 +15,8 @@ async function run() {
             .replace('{source_ref}', source_ref)
             .replace('{target_branch}', target_branch);
 
+        console.log("Waiting for merge...");
+        
         await octokit.repos.merge({
             owner: repo.owner,
             repo: repo.repo,
