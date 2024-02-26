@@ -6,7 +6,7 @@ inputs:
     required: true
     default: ${{ github.token }}
   source_ref:
-    description: 'Branch name or Ref that you wish to merge into the target_branch.'
+    description: '2Branch name or Ref that you wish to merge into the target_branch.'
     required: true
     default: ${{ github.ref }}
   target_branch:
